@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+header, nav, h2, .main-visual, footer {
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 /* header */
 
 header {
@@ -11,6 +19,19 @@ header {
     padding: 15px 0;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    color: #f7f7f7;
+}
+
+.social {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+
+.social i {
+    display: inline-block;
+    margin-left: 20px;
 }
 
 header .heading {
